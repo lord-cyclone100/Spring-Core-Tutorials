@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="obj1" class="com.cyclone.beans.Sample">
+        <constructor-arg name="id" value="101" type="int"/>
+        <constructor-arg name="name" value="Suresh"/>
+        <constructor-arg name="salary" value="4000.50" type="double"/>
+    </bean>
+</beans>
